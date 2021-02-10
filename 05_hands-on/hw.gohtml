@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+<h1>STOCK DATA TEMPLATE</h1>
+<ul>
+    {{ range . }}
+    <ul>
+        <li>{{.}}</li>
+    </ul>
+    {{ end }}
+</ul>
+
+</body>
+</html>
